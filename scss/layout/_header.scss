@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    background-color: $backgroundh;
+    padding: 1.25rem 1.25rem;
+        nav {
+            .navbar{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                gap: 1.5rem;
+                justify-content: right;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $font-color-b;
+                    }
+                }
+            }
+        }
+}

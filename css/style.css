@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: #E2C799;
+  padding: 1.25rem 1.25rem;
+}
+.header nav .navbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.5rem;
+  justify-content: right;
+}
+.header nav .navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-productos {
+  width: 100%;
+  background-color: #C08261;
+  padding: 0.125rem;
+}
+.main-productos .h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+.main-productos img {
+  width: 100%;
+}
+.main-productos .container-cards {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-productos .card {
+  width: 20rem;
+  height: 21.875rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
+.main-nosotros {
+  width: 100%;
+  background-color: #C08261;
+  padding: 0.125rem;
+}
+.main-nosotros h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.main-nosotros .card-nosotros {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-nosotros .section-1-nosotros {
+  background-color: white;
+  width: 20rem;
+  height: 21.875rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+.main-nosotros .section-2-nosotros {
+  background-color: white;
+  width: 20rem;
+  height: 21.875rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #E2C799;
+  padding: 1.25rem 1.25rem;
+  font-family: "Raleway", sans-serif;
+}
+.footer .section-1-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 2px;
+}
+.footer .section-2-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 2px;
+}
+.footer .section-2-footer img {
+  width: 2%;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
