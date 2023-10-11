@@ -21,6 +21,38 @@
   color: black;
 }
 
+.main-index {
+  width: 100%;
+  background-color: #C08261;
+  padding: 0.125rem;
+}
+.main-index h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+.main-index img {
+  width: 100%;
+}
+.main-index .container-cards-index {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-index .card-index {
+  width: 20rem;
+  height: 21.875rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
 .main-productos {
   width: 100%;
   background-color: #C08261;
@@ -51,6 +83,44 @@
   box-shadow: 0.125rem 0.125rem 0.625rem gray;
   margin: 0.3125rem;
   margin-top: 0.3125rem;
+}
+
+.main-contactos {
+  width: 100%;
+  background-color: #C08261;
+  padding: 0.125rem;
+  display: flex;
+  flex-direction: row;
+}
+.main-contactos h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.formulario {
+  background-color: white;
+  width: 30%;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+  text-align: center;
+  padding: 4.5rem 3rem;
+  gap: 2rem;
+}
+
+.mapa-locales {
+  width: 70%;
+}
+.mapa-locales h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 .main-nosotros {
@@ -94,15 +164,48 @@
   margin-top: 0.3125rem;
 }
 
+.main-cuidados {
+  width: 100%;
+  background-color: #C08261;
+  padding: 0.125rem;
+}
+.main-cuidados h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.card-cuidados {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-1-cuidados, .section-3-cuidados, .section-2-cuidados {
+  background-color: white;
+  width: 20rem;
+  height: 21.875rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.281);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  box-shadow: 0.125rem 0.125rem 0.625rem gray;
+  margin: 0.3125rem;
+  margin-top: 0.3125rem;
+}
+
 .footer {
   width: 100%;
   background-color: #E2C799;
   padding: 1.25rem 1.25rem;
   font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
 }
 .footer .section-1-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: left;
   padding: 2px;
 }

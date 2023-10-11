@@ -1,0 +1,38 @@
+.main-contactos {
+    width: 100%;
+    background-color: $backgroundm;
+    padding: .125rem;
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 10px    ;
+    }
+}
+
+.formulario {
+    background-color: white; 
+    width: 30% ;
+    border: .0625rem solid rgba(0, 0, 0, 0.281);
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow: .125rem .125rem .625rem gray;
+    margin: .3125rem;
+    margin-top: .3125rem; 
+    text-align: center;
+    padding: 4.5rem 3rem;
+    gap: 2rem;
+}
+
+.mapa-locales {
+    width: 70%;
+    h1  {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 10px ;
+    }
+}

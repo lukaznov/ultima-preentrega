@@ -1,0 +1,33 @@
+.main-index {
+    width: 100%;
+    background-color: $backgroundm;
+    padding: .125rem;
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 20px    ;
+    }
+
+
+img {
+    width: 100%;
+}
+.container-cards-index {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-index { 
+width: 20rem;
+height: 21.875rem;
+border: .0625rem solid rgba(0, 0, 0, 0.281);
+border-radius: .9375rem;
+overflow: hidden;
+box-shadow: .125rem .125rem .625rem gray;
+margin: .3125rem;
+margin-top: .3125rem; 
+}
+}

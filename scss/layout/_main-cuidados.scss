@@ -1,0 +1,39 @@
+.main-cuidados {
+    width: 100%;
+    background-color: $backgroundm;
+    padding: .125rem;
+    h1 {
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 10px    ;
+    }
+}
+.card-cuidados {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+}
+
+.section-1-cuidados { 
+        background-color: white; 
+        width: 20rem;
+        height: 21.875rem;
+        border: .0625rem solid rgba(0, 0, 0, 0.281);
+        border-radius: .625rem;
+        overflow: hidden;
+        box-shadow: .125rem .125rem .625rem gray;
+        margin: .3125rem;
+        margin-top: .3125rem; 
+}
+
+.section-2-cuidados {
+    @extend .section-1-cuidados
+}
+
+.section-3-cuidados {
+    @extend .section-1-cuidados
+
+}
